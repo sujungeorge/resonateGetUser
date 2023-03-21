@@ -1,0 +1,27 @@
+.contacts {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.user {
+    margin: 10px;
+    width: 75%;
+}
+
+.user:hover {
+    background-color: lightgray;
+    transition: .2s ease-in-out;
+}
+
+.contactList {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactDetails {
+    margin-left: 30px;
+    margin-top: 10px;
+}
